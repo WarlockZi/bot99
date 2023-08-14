@@ -1,1 +1,2 @@
-Hello
+<?php
+header('Location: frontend/public/');
