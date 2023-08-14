@@ -4,10 +4,10 @@ Options +FollowSymLinks
 
 
 #RewriteCond %{REQUEST_URI} ^(.+)/$
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-l
 
-RewriteRule ^(.*)$ ./frontend/public/$1 [R=301,L]
+#RewriteRule ^(.*)$ ./frontend/public/$1 [R=301,L]
 
 
