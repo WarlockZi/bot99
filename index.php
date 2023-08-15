@@ -1,2 +1,2 @@
 <?php
-header('Location: frontend/public/');
+header('Location: backend/public/');
