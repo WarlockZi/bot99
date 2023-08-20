@@ -1,13 +1,14 @@
 RewriteEngine on
-RewriteBase /
-Options +FollowSymLinks
+# RewriteBase /
+# Options +FollowSymLinks
 
 
 #RewriteCond %{REQUEST_URI} ^(.+)/$
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-l
+# RewriteCond %{REQUEST_URI} ^/backend/public/
 
-#RewriteRule ^(.*)$ ./frontend/public/$1 [R=301,L]
-
+# RewriteRule ^backend/public/(.*)$ f [R=301,L,QSA]
+# RewriteRule ^http:(.*)$ ftp:$1
 
