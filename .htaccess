@@ -15,5 +15,5 @@
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^(.*)$ public/indexs.php [L]
+RewriteRule ^(.*)$ public/index.php [L]
 </IfModule>
