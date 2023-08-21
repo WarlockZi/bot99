@@ -1,4 +1,4 @@
-RewriteEngine on
+# RewriteEngine on
 # RewriteBase /
 # Options +FollowSymLinks
 
@@ -10,6 +10,10 @@ RewriteEngine on
 #RewriteCond %{REQUEST_FILENAME} !-l
 # RewriteCond %{REQUEST_URI} ^/backend/public/
 
-RewriteRule ^(.*)$ public/$1 [L]
+# RewriteRule ^(.*)$ public/$1 [L]
 # RewriteRule ^http:(.*)$ ftp:$1
 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
