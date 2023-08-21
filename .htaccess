@@ -10,6 +10,6 @@ RewriteEngine on
 #RewriteCond %{REQUEST_FILENAME} !-l
 # RewriteCond %{REQUEST_URI} ^/backend/public/
 
-RewriteRule ^(.*)$ backend/public/$1 [L,QSA]
+RewriteRule ^(.*)$ backend/public/index.php?$1 [L,QSA]
 # RewriteRule ^http:(.*)$ ftp:$1
 
