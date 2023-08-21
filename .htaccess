@@ -2,7 +2,7 @@ RewriteEngine on
 # RewriteBase /
 # Options +FollowSymLinks
 
-RewriteRule ^(.*)$ backend/public/index.php?$1 [L,QSA]
+# RewriteRule ^(.*)$ backend/public/index.php?$1 [L,QSA]
 
 #RewriteCond %{REQUEST_URI} ^(.+)/$
 #RewriteCond %{REQUEST_FILENAME} !-d
