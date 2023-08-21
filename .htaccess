@@ -10,6 +10,6 @@ RewriteBase /
 #RewriteCond %{REQUEST_FILENAME} !-l
 # RewriteCond %{REQUEST_URI} ^/backend/public/
 
-RewriteRule ^(.*)$ backend/public/$1 [L]
+RewriteRule ^(.*)$ public/$1 [L]
 # RewriteRule ^http:(.*)$ ftp:$1
 
