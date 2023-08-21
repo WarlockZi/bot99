@@ -30,8 +30,9 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 | into the script here so we don't need to manually load our classes.
 |
 */
-
-require __DIR__;
+// $f = '/vendor/autoload.php';
+// echo $f;
+require $_SERVER['DOCUMENT_ROOT'].'/../../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
